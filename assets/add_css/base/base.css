@@ -45,7 +45,12 @@ html {
     width: 87.5%;
     max-width: 1400px;
     margin: auto;
+<<<<<<< HEAD
     background-color: red;
+=======
+    background-color: orange;
+    color: royalblue;
+>>>>>>> 044810fdd962ea326e291b546c9b3cd8e44def1f
   }
 }
 @media print, screen and (max-width: 767px) {
