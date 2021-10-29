@@ -46,7 +46,7 @@ html {
     max-width: 1400px;
     margin: auto;
     background-color: orange;
-    color: green;
+    color: blue;
   }
 }
 @media print, screen and (max-width: 767px) {
