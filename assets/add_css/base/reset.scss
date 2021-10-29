@@ -1,0 +1,217 @@
+@import '../settings/config';
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+html {
+  line-height: 1;
+}
+body {
+	font-size: 100%;
+	line-height: 1;
+	-webkit-text-size-adjust: 100%;
+}
+ol, ul {
+  list-style: none; }
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+q, blockquote {
+  quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+a img {
+  border: none; }
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+body,
+button,
+input,
+select,
+textarea {
+  font-size:1rem;
+  line-height: 1;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+  &:visited{
+    color: inherit;
+  }
+}
+img{
+  width:100%;
+  max-width: initial;
+  vertical-align: bottom;
+  &[src$=".svg"] {
+    max-width: 100%;
+  }
+}
+
+
+.custom-logo-link {
+   padding-right: 0;
+  line-height: 1;
+  img{
+    width:100%;
+    max-width: initial;
+    max-height: initial;
+  }
+}
+label {
+    margin-bottom: 0;
+}
+
+input[type="search"]{
+	color: inherit;
+	border: 1px solid $color01;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	padding: 0.3em 0.3em 0.3em 35px;
+}
+.search-form .search-submit {
+  width:32px;
+    bottom: 0;
+    padding: 0;
+    left: 0;
+  right:auto;
+    top: 0;
+}
+
+.search-form .search-submit .icon {
+    height: 16px;
+    top: 0;
+    width: 16px;
+}
+
+ul{
+  list-style: none;
+}
+.wrap {
+    max-width: initial;
+    padding-left: 0;
+    padding-right: 0;
+}
+#secondary {
+    font-size: inherit;
+    line-height: inherit;
+      padding: 0;
+}
+.site-footer {
+    font-size: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-top: 0;
+  border-top: none;
+}
+
+.site-header {
+    background-color: transparent;
+  &::before{
+    display: none;
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    line-height: 1;
+    margin: 0;
+    padding:0;
+}
+ul, ol {
+    margin: 0;
+}
+figure {
+    margin: 0;
+}
+h1 {
+    font-size:inherit;
+}
+p {
+    margin: 0;
+}
+h2, .home.blog .entry-title {
+    color: inherit;
+    font-size: 1rem;
+   // font-weight: 200;
+}
+h3 {
+    color: inherit;
+}
+dl{
+  margin: 0;
+}
+dd {
+    margin:0;
+}
+
+h3 {
+    font-size: 1rem;
+}
+li > ul, li > ol {
+    margin-bottom: 0;
+     margin-left:0;
+}
+.page:not(.home) #content {
+    padding-bottom:0;
+}
+.site-content {
+    padding: 0;
+}
+h4 {
+    color: inherit;
+    font-size: inherit;
+    font-weight: normal;
+}
+button, input[type="button"], input[type="submit"]{
+  background-color: transparent;
+}
+ol {
+    list-style: none;
+}
+/* Placeholder text color -- selectors need to be separate to work. */
+::-webkit-input-placeholder {
+	color: #c5c5c5;
+	font-family: $font;
+}
+
+:-moz-placeholder {
+	color: #c5c5c5;
+	font-family: $font;
+}
+
+::-moz-placeholder {
+	color: #c5c5c5;
+	font-family: $font;
+	opacity: 1;
+	/* Since FF19 lowers the opacity of the placeholder by default */
+}
+
+:-ms-input-placeholder {
+	color: #c5c5c5;
+	font-family:$font;
+}
+.custom-logo-link img, body.home.title-tagline-hidden.has-header-image .custom-logo-link img, body.home.title-tagline-hidden.has-header-video .custom-logo-link img {
+   max-width: 100%;
+  max-height: 100%;
+}
+.site-content-contain{
+  background: none;
+}
+a:hover, a:active {
+    color: inherit;
+}
+
+.post, .page {
+    margin: 0;
+}

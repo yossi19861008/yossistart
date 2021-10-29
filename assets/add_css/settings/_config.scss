@@ -1,0 +1,35 @@
+// サイト設定
+$pc_font: 16;
+$pc_all: 1600/100;
+$pc_inner: 1400/100;
+
+$sp_font: 28;
+$sp_all: 767/100;
+$sp_inner: 737/100;
+
+// 基本秒数
+$s: 0.3s;
+
+$color01:#333;
+$color02:#1949A0;
+$c_red:#F6434D ;
+$c_blue:#182987;
+
+$font: 'Noto Sans JP',"ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "Yu Gothic", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+
+// ブレイクポイント
+$bp: 768;
+@mixin media-pc(){
+  @media print, screen and(min-width:#{$bp}px){
+    @content;
+  }
+}
+
+@mixin media-sp(){
+  @media print, screen and(max-width:#{$bp - 1}px){
+    @content;
+  }
+}
+
+
+

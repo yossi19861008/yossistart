@@ -1,0 +1,10 @@
+@import '../settings/config';
+
+body{
+  background-color: green;
+  color: white;
+}
+
+h1{
+  font-size: 100 / $pc_font * 1rem;
+}

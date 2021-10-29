@@ -1,0 +1,34 @@
+@import '../modules/header';
+@import '../modules/footer';
+@import '../settings/config';
+
+html{
+  font-family: $font;
+}
+
+@include media-pc{
+  html{
+    font-size: $pc_font/$pc_all*1vw;
+  }
+  .inner{
+    width: ($pc_inner / $pc_all)*100%;
+    max-width: $pc_inner*100px;
+    margin: auto;
+    background-color: red;
+  }
+}
+
+@include media-sp{
+  html{
+    font-size: $sp_font/$sp_all*1vw;
+  }
+  .inner{
+    width: ($sp_inner/$sp_all)*100%;
+    margin: auto;
+    background-color: pink;
+  }
+}
+
+.pan{
+  display: flex;
+}
